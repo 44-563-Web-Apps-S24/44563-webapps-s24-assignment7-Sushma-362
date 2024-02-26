@@ -1,0 +1,38 @@
+h1 {
+    background-color: aliceblue;
+    color:brown;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    color:cornflowerblue;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .instructions, #locations, #score, #help {
+    color: #fff;
+  }
+  
+  #locations, #score {
+    max-width: 800px;
+   
+    text-align: center;
+    color:cornflowerblue;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+  }
+  
+  #help {
+    cursor: pointer;
+    color:chocolate;
+  }
+  
+  
