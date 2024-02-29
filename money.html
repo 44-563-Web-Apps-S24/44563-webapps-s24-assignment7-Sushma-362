@@ -29,67 +29,159 @@
     </div>
 
     <div id="clickForHelp">
-        <p>Click for help.</p>
+        <button onclick="help()">Click for help.</button>
     </div>
 
     <div id="help">
         <p>Help report</p>
     </div>
-
+    <p ><button class="btn btn-primary" onclick="newGame()">new game</button></p>
     <div class="row">
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img01" height="160" width="160" onclick="check(0)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img02" height="160" width="160" onclick="check(1)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img03" height="160" width="160" onclick="check(2)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img04" height="160" width="160" onclick="check(3)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img05" height="160" width="160" onclick="check(4)"></div>
     </div>
     <br>
     <div class="row">
-            <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-            <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-            <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-            <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-            <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img06" height="160" width="160" onclick="check(5)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img07" height="160" width="160" onclick="check(6)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img08" height="160" width="160" onclick="check(7)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img09" height="160" width="160" onclick="check(8)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img10" height="160" width="160" onclick="check(9)"></div>
     </div>
     <br>
     <div class="row">
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img11" height="160" width="160" onclick="check(10)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img12" height="160" width="160" onclick="check(11)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img13" height="160" width="160" onclick="check(12)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img14" height="160" width="160" onclick="check(13)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img15" height="160" width="160" onclick="check(14)"></div>
     </div>
     <br>
     <div class="row">
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img16" height="160" width="160" onclick="check(15)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img17" height="160" width="160" onclick="check(16)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img18" height="160" width="160" onclick="check(17)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img19" height="160" width="160" onclick="check(18)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img20" height="160" width="160" onclick="check(19)"></div>
     </div>
     <br>
     <div class="row">
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img21" height="160" width="160" onclick="check(20)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img22" height="160" width="160" onclick="check(21)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img23" height="160" width="160" onclick="check(22)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img24" height="160" width="160" onclick="check(23)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img25" height="160" width="160" onclick="check(24)"></div>
     </div>
     <br>
     <div class="row">
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img26" height="160" width="160" onclick="check(25)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img27" height="160" width="160" onclick="check(26)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img28" height="160" width="160" onclick="check(27)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img29" height="160" width="160" onclick="check(28)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img30" height="160" width="160" onclick="check(29)"></div>
     </div>
     <br>
     <div class="row">
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
-        <div class="col-sm-2"><img src="building.jpg" alt="building" height="160" width="160"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img31" height="160" width="160" onclick="check(30)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img32" height="160" width="160" onclick="check(31)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img33" height="160" width="160" onclick="check(32)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img34" height="160" width="160" onclick="check(33)"></div>
+        <div class="col-sm-2"><img src="building.jpg" alt="building" id="img35" height="160" width="160" onclick="check(34)"></div>
     </div>
-
+    <script>
+        let ids = new Array(35);
+        ids = ["img01","img02","img03","img04","img05","img06","img07","img08","img09","img10","img11","img12","img13","img14","img15","img16",
+               "img17","img18","img19","img20","img21","img22","img23","img24","img25","img26","img27","img28","img29","img30","img31","img32",
+               "img33","img34","img35"]
+        
+        var score = 0;
+        var locations = 0;
+        var lastLocation = 0;
+        var fancyCoinLocations = [2, 5, 14, 19, 23, 33];
+        var monsterLocation = 20;
+        var gameOver = false;
+        function check(position)
+        {
+            let id = ids[position];
+            if(gameOver == true)
+            {
+                return;
+            }
+            let img = document.getElementById(id);
+            if(fancyCoinLocations.includes(position))
+            {
+                img.src = "fancier coin.png";
+                score += 3;
+                locations++;
+                document.getElementById("locations").innerText = locations;
+                document.getElementById("score").innerText = score;
+    
+            }
+            else if (position == monsterLocation) {
+                img.src = "monster.jpg";
+                gameOver = true; 
+                score -= 5;
+                locations++;
+                document.getElementById("locations").innerText = locations;
+                document.getElementById("score").innerText = score;
+                }
+            
+            else{
+                img.src = "Coins.png";
+                score += 1;
+                locations++;
+                document.getElementById("locations").innerText = locations; 
+                document.getElementById("score").innerText = score;
+            }
+    
+            lastLocation = position;
+                
+            }
+            function help()
+            {
+                
+                var cm = lastLocation%5;
+                var rw = Math.floor(lastLocation/5);
+                
+                const kinshipLocations = [lastLocation-1,lastLocation+1,lastLocation-5,lastLocation+5];
+                for(const kinship of kinshipLocations)
+                {
+                    const adjustedLoc = (kinship+35)%35;
+                    if(fancyCoinLocations.includes(adjustedLoc))
+                {
+                    document.getElementById("help").innerHTML="So close";
+                    return;
+                }
+    
+                }
+                
+    
+                var mrw = Math.floor(monsterLocation / 5);
+                var mcm = monsterLocation % 5;
+                if (rw - mrw< 1 && cm - mcm < 1) {
+                  document.getElementById("help").innerHTML="Grr";
+                }
+                else
+                {
+                    document.getElementById("help").innerHTML="All clear";
+                }
+                document.getElementById("help").onclick = help;
+    
+    
+            }
+            function newGame() {
+            monsterLocation = Math.floor(Math.random() * 35);
+            fancyCoinLocations = Math.floor(Math.random() * 35);
+            console.log(monsterLocation);
+            console.log(fancyCoinLocations);
+            score=null;
+            locations=null;
+            document.getElementById("locations").innerText =`locations: 0`; 
+            document.getElementById("score").innerText = `score: 0`;
+        }
+</script>
 </body>
+</html>
